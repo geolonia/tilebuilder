@@ -1,0 +1,11 @@
+{
+  "name": "tilebuilder",
+  "version": "1.0.0",
+  "description": "Create Mapbox vector tiles from Shape data using TileBuilder",
+  "scripts": {
+    "postinstall": "docker pull ghcr.io/geolonia/tilebuilder:latest",
+    "build": "docker run --rm -v $(pwd)/data:/data ghcr.io/geolonia/tilebuilder:latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
