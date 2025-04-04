@@ -11,5 +11,5 @@ $ npm run build
 ## デプロイ
 
 ```bash
-npm run deploy
+$ npm run deploy
 ```
