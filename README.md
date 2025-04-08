@@ -7,6 +7,13 @@ $ npm install
 $ npm run build
 ```
 
+## プレビュー
+
+作成したベクトルタイルをプレビューすることができます。
+
+```bash
+$ npm start
+```
 
 ## デプロイ
 
