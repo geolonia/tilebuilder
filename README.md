@@ -9,7 +9,7 @@ $ npm run build
 
 ### タイルのカスタマイズ
 
-`$ npm run build` を実行すると、`tiles` ディレクトリ以下に `kata.yml` が生成されます。任意でベクトルタイルの設定を変更してください。
+`$ npm run build` を実行すると、`tiles/kata.yml` が生成されます。任意でタイルの設定をカスタマイズしてください。
 
 ```yaml
 airport:
