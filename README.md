@@ -13,13 +13,13 @@ $ npm run build
 
 ```yaml
 airport:
-  source: ./data/airport.geojson
+  source: ./data/airport.shp
   properties:
     name: properties["name:ja"]
   minzoom: 9
   maxzoom: 14
 town:
-  source: ./data/town.geojson
+  source: ./data/town.zip
   properties:
     title: properties.label
   minzoom: 9
