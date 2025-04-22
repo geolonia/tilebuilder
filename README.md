@@ -9,14 +9,15 @@ $ npm run build
 
 ### タイルのカスタマイズ
 
-`$ npm run build` を実行すると、`tiles/kata.yml` が生成されます。任意でタイルの設定をカスタマイズしてください。
+`data/kata.yml` にタイルの設定を書いてください。
 
 ```yaml
+# プロジェクト全体の設定
 default:
   cpg: UTF-8
   prj: EPSG:4612
 
-airport:
+airport: # source-layer名
   source:
     - ./airport.shp
   minzoom: 9
@@ -28,18 +29,4 @@ town:
     - ./city/town2.shp
   minzoom: 12
   maxzoom: 14
-```
-
-## プレビュー
-
-作成したベクトルタイルをプレビューすることができます。
-
-```bash
-$ npm start
-```
-
-## デプロイ
-
-```bash
-$ npm run deploy
 ```
