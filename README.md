@@ -2,6 +2,9 @@
 
 `data/` に Shapeファイルを配置して以下を実行すると、`tiles/` にベクトルタイルが作成されます。
 
+- `tiles/*.mbtiles`：ソースレイヤー毎の MBTiles （例: `airport.mbtiles`、`town.mbtiles`）
+- `tiles/all.mbtiles`：ソースレイヤーの MBTilesを結合した MBTiles
+ 
 ```bash
 $ npm install
 $ npm run build
@@ -16,6 +19,8 @@ $ npm run build
 default:
   cpg: UTF-8
   prj: EPSG:4612
+  minzoom: 8
+  maxzoom: 10
 
 airport: # source-layer名
   source:
