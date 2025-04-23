@@ -20,7 +20,7 @@ default:
   cpg: UTF-8
   prj: EPSG:4612
   minzoom: 8
-  maxzoom: 10
+  maxzoom: 14
 
 airport: # source-layer名
   source:
