@@ -10,7 +10,7 @@ $ npm install
 $ npm run build
 ```
 
-### タイルのカスタマイズ
+## タイルのカスタマイズ
 
 `data/kata.yml` にタイルの設定を書いてください。
 
@@ -34,4 +34,12 @@ town:
     - ./city/town2.shp
   minzoom: 12
   maxzoom: 14
+```
+
+## プレビュー
+
+以下を実行すると、http://localhost:8080 が立ち上がり、作成したベクトルタイル（`all.mbtiles`）をプレビューすることができます。
+
+```bash
+$ npm start
 ```
